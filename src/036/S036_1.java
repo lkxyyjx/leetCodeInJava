@@ -17,23 +17,18 @@ public class S036_1 {
     }
 
     public boolean isValidSudoku(char[][] board) {
-        Map<Integer, Integer>[] rowCount = new HashMap[9];
-        Map<Integer, Integer>[] colCount = new HashMap[9];
-        Map<Integer, Integer>[] cubCount = new HashMap[9];
-        for (int i = 0; i < 9; i++) {
-            rowCount[i] = new HashMap<>();
-            colCount[i] = new HashMap<>();
-            cubCount[i] = new HashMap<>();
-        }
+        int[][] rowCount = new int[9][9];
+        int[][] colCount = new int[9][9];
+        int[][] cubCount = new int[9][9];
         int nowInt;
         for (int i = 0; i < 9; i++ ) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] != '.') {
-                    nowInt = (int)board[i][j];
-                    rowCount[i].put(nowInt, rowCount[i].getOrDefault(nowInt, 0) + 1);
-                    colCount[j].put(nowInt, colCount[j].getOrDefault(nowInt, 0) + 1);
-                    cubCount[i / 3 * 3 + j / 3].put(nowInt, cubCount[i / 3 * 3 + j / 3].getOrDefault(nowInt, 0) + 1);
-                    if (rowCount[i].get(nowInt) > 1 || colCount[j].get(nowInt) > 1 || cubCount[i/3 * 3 + j/3].get(nowInt) > 1) {
+                    nowInt = board[i][j] - '1';
+                    rowCount[i][nowInt] ++;
+                    colCount[j][nowInt] ++;
+                    cubCount[i / 3 * 3 + j / 3][nowInt] ++;
+                    if (rowCount[i][nowInt] > 1 || colCount[j][nowInt] > 1 || cubCount[i/3 * 3 + j/3][nowInt] > 1) {
                         return false;
                     }
                 }
