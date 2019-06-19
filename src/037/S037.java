@@ -1,5 +1,3 @@
-import javafx.util.Pair;
-
 import java.util.Stack;
 
 public class S037 {
@@ -41,16 +39,16 @@ public class S037 {
             }
         }
 
-        Stack<Pair<Integer, Integer>> fillProcessor = new Stack<>();
+        Stack<pair> fillProcessor = new Stack<>();
         boolean isFillable;
-        Pair<Integer, Integer> pos;
+        pair pos;
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.') {
                     isFillable = false;
                     for (int v = 0; v < 9; v++ ) {
                         if (rowCount[i][v] < 1 && colCount[j][v] < 1 && cubCount[i / 3 * 3 + j / 3][v] < 1) {
-                            fillProcessor.push(new Pair<>(i, j));
+                            fillProcessor.push(new pair(i, j));
                             board[i][j] = (char)(v + '1');
                             isFillable = true;
                             rowCount[i][v] ++;
@@ -60,14 +58,14 @@ public class S037 {
                         }
                     }
                     if (!isFillable) {
-                        trackingBack(board, fillProcessor, rowCount, colCount, cubCount);
+                        backTrack(board, fillProcessor, rowCount, colCount, cubCount);
                         pos = fillProcessor.peek();
                         if (pos == null) {
                             board = new char[9][9];
                             return;
                         } else {
-                            i = pos.getKey();
-                            j = pos.getValue();
+                            i = pos.x;
+                            j = pos.y;
                             if (i == 0 && j == 8) return;
                         }
                     }
@@ -76,9 +74,9 @@ public class S037 {
         }
     }
 
-    private void trackingBack(char[][] board, Stack<Pair<Integer, Integer>> fillProcessor, int[][] rowCount, int[][] colCount, int[][] cubCount) {
+    private void backTrack(char[][] board, Stack<pair> fillProcessor, int[][] rowCount, int[][] colCount, int[][] cubCount) {
         boolean trackingBackOk = false;
-        Pair<Integer, Integer> pos;
+        pair pos;
         int posValue;
         int i;
         int j;
@@ -86,8 +84,8 @@ public class S037 {
         while (!trackingBackOk) {
             pos = fillProcessor.pop();
             if (pos != null) {
-                i = pos.getKey();
-                j = pos.getValue();
+                i = pos.x;
+                j = pos.y;
                 posValue = board[i][j] - '1';
                 board[i][j] = '.';
                 rowCount[i][posValue]--;
@@ -95,7 +93,7 @@ public class S037 {
                 cubCount[i / 3 * 3 + j / 3][posValue]--;
                 for (int v = posValue + 1; v < 9; v++) {
                     if (rowCount[i][v] < 1 && colCount[j][v] < 1 && cubCount[i / 3 * 3 + j / 3][v] < 1) {
-                        fillProcessor.push(new Pair<>(i, j));
+                        fillProcessor.push(new pair(i, j));
                         board[i][j] = (char) (v + '1');
                         trackingBackOk = true;
                         rowCount[i][v]++;
@@ -109,4 +107,15 @@ public class S037 {
             }
         }
     }
+
+    public static class pair {
+        public int x;
+        public int y;
+
+        public pair(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
 }
+
