@@ -22,7 +22,7 @@ public class S098 {
         midWalk(root, midWalkRes);
 
         System.out.println(midWalkRes.size());
-        for (int i = 1; i < midWalkRes.size(); i ++) {
+        for (int i = 1; i < midWalkRes.size(); i++) {
             if (midWalkRes.get(i) <= midWalkRes.get(i - 1)) return false;
         }
 
@@ -38,11 +38,9 @@ public class S098 {
                 p = p.left;
             }
 
-            if (!walkStack.empty()) {
-                p = walkStack.pop();
-                res.add(p.val);
-                p = p.right;
-            }
+            p = walkStack.pop();
+            res.add(p.val);
+            p = p.right;
         }
     }
 }
