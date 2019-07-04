@@ -5,8 +5,8 @@ public class S105 {
         TreeNode.preOrderWalk(root);
     }
 
-    protected int[] preorder;
-    protected int[] inorder;
+    int[] preorder;
+    int[] inorder;
     TreeNode root;
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -35,7 +35,6 @@ public class S105 {
             TreeNode leftChild = preStart + 1 >= preorder.length ? null : new TreeNode(this.preorder[preStart + 1]);
             root.left = leftChild;
             dfs(preStart + 1, preStart + leftNodeNum, inStart, inOrderRootIndex - 1, leftChild);
-            System.out.println("preStart:" + preStart + "\n" + "leftNodeNum:" + leftNodeNum);
             TreeNode rightChild = preStart + 1 + leftNodeNum >= preorder.length ? null :  new TreeNode(this.preorder[preStart + 1 + leftNodeNum]);
             root.right = rightChild;
             dfs(preStart + 1 + leftNodeNum, preEnd, inOrderRootIndex + 1, inEnd, rightChild);
