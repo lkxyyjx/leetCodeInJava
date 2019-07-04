@@ -14,6 +14,8 @@ public class TreeNode {
             System.out.println(root.val);
             preOrderWalk(root.left);
             preOrderWalk(root.right);
+        } else {
+            System.out.println("null");
         }
     }
 }
