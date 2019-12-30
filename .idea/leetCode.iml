@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/001" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/002" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/003" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/004" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/005" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/006" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/007" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/008" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/009" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/011" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/012" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/013" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/014" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/015" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/016" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/017" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/018" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/019" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/020" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/021" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/022" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/023" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/024" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/026" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/027" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/028" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/029" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/030" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/031" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/032" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/033" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/034" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/035" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/036" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/053" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/094" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DataStructure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/098" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/038" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/039" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/670" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/037" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/099" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/105" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/877" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/041" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
