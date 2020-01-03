@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 public class S124 {
     public static void main(String[] args) {
         S124 solution = new S124();
