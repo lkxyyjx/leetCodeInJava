@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e2fb44-f268-4634-a853-533698cad277" name="Default Changelist" comment="109">
-      <change afterPath="$PROJECT_DIR$/src/044/S044.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/045/S045.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/070/S070.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/072/S072.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/174/S174.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/174/S174_falseAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/046/S046.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S045">
+  <component name="RunManager" selected="Application.S046">
     <configuration name="S044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S044" />
       <module name="leetCode" />
@@ -67,6 +63,13 @@
     </configuration>
     <configuration name="S045" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S045" />
+      <module name="leetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S046" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S046" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,27 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S174_falseAnswer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S174_falseAnswer" />
-      <module name="leetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.S174_falseAnswer" />
       <item itemvalue="Application.S070" />
       <item itemvalue="Application.S072" />
       <item itemvalue="Application.S044" />
       <item itemvalue="Application.S045" />
+      <item itemvalue="Application.S046" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S046" />
         <item itemvalue="Application.S045" />
         <item itemvalue="Application.S044" />
         <item itemvalue="Application.S072" />
         <item itemvalue="Application.S070" />
-        <item itemvalue="Application.S174_falseAnswer" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,7 @@
       <workItem from="1577947536399" duration="3710000" />
       <workItem from="1578050098811" duration="2768000" />
       <workItem from="1581749554062" duration="21395000" />
-      <workItem from="1581921190349" duration="7261000" />
+      <workItem from="1581921190349" duration="12326000" />
     </task>
     <task id="LOCAL-00001" summary="另一种简单点的思路：第一位开始，找到后面比它大的最大值进行交换">
       <created>1577359559659</created>
