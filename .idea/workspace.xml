@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e2fb44-f268-4634-a853-533698cad277" name="Default Changelist" comment="109">
-      <change afterPath="$PROJECT_DIR$/src/046/S046.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/047/S047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/048/S048.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/049/S049.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S046">
-    <configuration name="S044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S044" />
-      <module name="leetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.S049">
     <configuration name="S045" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S045" />
       <module name="leetCode" />
@@ -75,34 +69,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S070" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S070" />
+    <configuration name="S047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S047" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S072" />
+    <configuration name="S048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S048" />
+      <module name="leetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S049" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.S070" />
-      <item itemvalue="Application.S072" />
-      <item itemvalue="Application.S044" />
       <item itemvalue="Application.S045" />
       <item itemvalue="Application.S046" />
+      <item itemvalue="Application.S047" />
+      <item itemvalue="Application.S048" />
+      <item itemvalue="Application.S049" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S049" />
+        <item itemvalue="Application.S048" />
+        <item itemvalue="Application.S047" />
         <item itemvalue="Application.S046" />
         <item itemvalue="Application.S045" />
-        <item itemvalue="Application.S044" />
-        <item itemvalue="Application.S072" />
-        <item itemvalue="Application.S070" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +158,8 @@
       <workItem from="1578050098811" duration="2768000" />
       <workItem from="1581749554062" duration="21395000" />
       <workItem from="1581921190349" duration="12326000" />
+      <workItem from="1582002771365" duration="9890000" />
+      <workItem from="1582081744070" duration="11969000" />
     </task>
     <task id="LOCAL-00001" summary="另一种简单点的思路：第一位开始，找到后面比它大的最大值进行交换">
       <created>1577359559659</created>
