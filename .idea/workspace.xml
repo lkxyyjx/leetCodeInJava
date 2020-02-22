@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e2fb44-f268-4634-a853-533698cad277" name="Default Changelist" comment="109">
-      <change afterPath="$PROJECT_DIR$/src/054/S054.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/055/S055.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/056/S056.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/面试题/036/M036.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -160,6 +159,7 @@
       <workItem from="1581921190349" duration="12326000" />
       <workItem from="1582002771365" duration="9890000" />
       <workItem from="1582081744070" duration="24355000" />
+      <workItem from="1582283420156" duration="5965000" />
     </task>
     <task id="LOCAL-00001" summary="另一种简单点的思路：第一位开始，找到后面比它大的最大值进行交换">
       <created>1577359559659</created>
