@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e2fb44-f268-4634-a853-533698cad277" name="Default Changelist" comment="109">
-      <change afterPath="$PROJECT_DIR$/src/058/S058.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/059/S059.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/060/S060.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/061/S061.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/066/S066.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/068/S068.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/075/S075.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/102/S102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/235/S235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/236/S236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/863/S863.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/面试题/029/M029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/面试题/054/M054.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/076/S076.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/077/S077.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/078/S078.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/079/S079.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/082/S082.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/083/S083.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/086/S086.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/088/S088.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/089/S089.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/090/S090.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/091/S091.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/092/S092.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/093/S093.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/095/S095.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/096/S096.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/097/S097.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/100/S100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/面试题/MS/MS01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/面试题/MS/MS02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/fibo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -66,56 +71,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.fibo">
-    <configuration name="S056" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S056" />
+  <component name="RunManager" selected="Application.S096">
+    <configuration name="MS02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MS02" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S058" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S058" />
+    <configuration name="S089" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S089" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S060" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S060" />
+    <configuration name="S090" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S090" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S068" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S068" />
+    <configuration name="S093" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S093" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibo" />
+    <configuration name="S096" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S096" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.S056" />
-      <item itemvalue="Application.S058" />
-      <item itemvalue="Application.S060" />
-      <item itemvalue="Application.S068" />
-      <item itemvalue="Application.fibo" />
+      <item itemvalue="Application.MS02" />
+      <item itemvalue="Application.S089" />
+      <item itemvalue="Application.S090" />
+      <item itemvalue="Application.S093" />
+      <item itemvalue="Application.S096" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.fibo" />
-        <item itemvalue="Application.S068" />
-        <item itemvalue="Application.S060" />
-        <item itemvalue="Application.S058" />
-        <item itemvalue="Application.S056" />
+        <item itemvalue="Application.S096" />
+        <item itemvalue="Application.S093" />
+        <item itemvalue="Application.S090" />
+        <item itemvalue="Application.S089" />
+        <item itemvalue="Application.MS02" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +181,9 @@
       <workItem from="1582463474011" duration="2005000" />
       <workItem from="1582527030021" duration="10451000" />
       <workItem from="1582699323395" duration="16961000" />
+      <workItem from="1582795789405" duration="24049000" />
+      <workItem from="1582885460890" duration="7665000" />
+      <workItem from="1582952741175" duration="14720000" />
     </task>
     <task id="LOCAL-00001" summary="另一种简单点的思路：第一位开始，找到后面比它大的最大值进行交换">
       <created>1577359559659</created>
